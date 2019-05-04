@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                     }
 
                     fin.close();
-                    reader.close();
+                    ed1.setText(""+ stringBuilder.toString());
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
